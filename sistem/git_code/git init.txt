@@ -1,0 +1,9 @@
+git init
+
+git add .    
+
+git commit -m "sistem"
+
+git remote add origin https://github.com/Edwar123CA/proyecto_edwar_carmen.git
+
+git push origin master
