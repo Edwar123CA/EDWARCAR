@@ -1,0 +1,22 @@
+Products
+
+product_id
+product_name
+supplier_id fk table suppliers
+category_id fk table categories
+quantity_per_unit
+unit_price
+unitsln_stock
+units_on_order
+reorder_level
+discontinued
+
+
+order_details
+
+order_details_id
+product_id fk table products
+order_id fk table orders
+unit_price
+quantity
+discount
